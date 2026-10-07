@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daily Advice</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="poster">
+  <div class="frame">
+    <div class="stack" id="stack">
+      <img id="mine" alt="Your photo" hidden>
+      <div id="art" class="art" role="img"></div>
+    </div>
+  </div>
+
+  <h1 id="title"></h1>
+  <div class="rule" aria-hidden="true"></div>
+  <p class="advice" id="advice"></p>
+  <div class="date" id="date"></div>
+
+  <p id="err" role="alert"></p>
+  <div class="actions">
+    <label class="btn">Add your photo<input id="photo" type="file" accept="image/*"></label>
+    <button id="next" type="button">Next day</button>
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
